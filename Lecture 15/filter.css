@@ -1,0 +1,21 @@
+/* Filter In Css  */
+body{
+    display: grid;
+    place-items: center;
+    margin: 150px auto;
+}
+img{
+    width: 400px;
+    /* filter: blur(9px); */
+    /* filter: brightness(150%); */
+    /* filter: contrast(120%); */
+    /* filter: drop-shadow(-8px -8px 12px red); */
+    /* filter: hue-rotate(150deg); */
+    /* filter:grayscale(10%); */
+    filter: blur(px) saturate(300%) invert(10%);
+    /* filter:invert(100%); */
+    /* filter:opacity(30%); */
+    /* filter:saturate(200%); */
+    /* filter:sepia(30%); */
+    /* filter:blur(1px) opacity(80%) saturate(250%); */
+}

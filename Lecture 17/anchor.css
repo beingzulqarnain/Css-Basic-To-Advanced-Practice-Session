@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    place-items: center;
+    background-color: #263026;
+}
+
+
+a{
+    border: 1px solid #000;
+    margin: 100px auto;
+    text-decoration: none;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+a:link{
+    color: cadetblue;
+}
+a:hover{
+    background-color: chocolate;
+    color: black;
+}
+a:active{
+    background-color: greenyellow;
+}
+a:visited{
+    color: white;
+    background-color: red;
+}

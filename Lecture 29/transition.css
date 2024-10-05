@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    place-items: center;
+    margin: 150px auto;
+}
+.hero-content a{
+    text-decoration: none;
+    border: 3px solid #ffffff;
+    background-color: black;
+    color: white;
+    padding: 12px 32px;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    transition-property: width;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+    /* transition-delay: 3s; */
+}
+.hero-content a:hover{
+    
+   width: 250px;
+   background-color: rgb(255, 255, 255);
+   color: #000000;
+}

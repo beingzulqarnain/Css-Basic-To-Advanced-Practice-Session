@@ -1,0 +1,9 @@
+section{
+    width: 300px;
+    /* border: 0px solid #000; */
+    padding: 20px;
+    margin: 50px auto;
+    background-color: tan;
+    box-shadow: 3px 3px green, 6px -6px red;
+    
+}

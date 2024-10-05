@@ -1,0 +1,92 @@
+
+.parent-div{
+    width: 900px;
+    height: 800px;
+    background: linear-gradient(to right,#514a9d,#24c6dc);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border-radius: 15px;
+}
+.child-1{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to right,#93edc7,#1cd8d2);
+    color:black;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0px;
+    /* border: 1px solid #000; */
+}
+.child-2{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to right,#88e6bf,#16c1bc);
+    background-color: #23c6ec;
+    color: black;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    /* border: 1px solid #000; */
+}
+.child-3{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to right,#75bd9f,#11c7c1);
+    background-color: #23c6ec;
+    color:black;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    /* border: 1px solid #000; */
+}
+.child-4{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to right,#91ebc5,#0eaea8);
+    background-color: #23c6ec;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color:black;
+    /* border: 1px solid #000; */
+}
+.child-5{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    background-color: #23c6ec;
+    background: linear-gradient(to right,#86e4bd,#21c2bd);
+    color:black;
+    /* border: 1px solid #000; */
+}
+.parent-div{
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+.child{
+    position:absolute;
+}
+.child-1{
+    left: 0;
+    top: 0;
+}
+.child-2{
+    right: 0;
+    top: 0;
+}
+.child-3{
+    left: 0;
+    bottom: 0;
+}
+.child-4{
+    right: 0;
+    bottom: 0;
+}
+.child-5{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

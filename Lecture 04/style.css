@@ -1,0 +1,45 @@
+
+/* Notes: Colors Using Various Notations */
+
+/*? Named Colors: You can use Named Colors, which are predefined colors Keywords */
+
+/* h1 {
+    color: black;
+    background-color: yellow;
+} */
+/* 
+? RGB Colors: RGB (Red,Green,Blue) Values allow you to define colors specifiying the amount of red, green and blue  in the color
+
+h1{
+    color: rgb(255, 255, 0);
+    background-color: brown;
+} */
+
+/*? RGBA Colors: RGBA is similar to RGB but includes an alpha channel for opacity control */
+
+/* h1{
+    color: rgba(235, 1, 20, 0.6);
+
+} */
+
+/*? Hexadecimal Colors: You can specify colors using hexadecimal values */
+
+/* 
+h1{
+    color: #ff00ff;
+}
+ */
+
+/*? HSL Colors: HSL (Hue,Saturation,Lightness) values provide a way to specify colors based on their hue, saturation and lightness */
+/* 
+h1{
+    color: hsl(226, 60%, 30%);
+} */
+
+/*? HSLA Colors: HSLA (Hue,Saturation,Lightness,Alpha) is similar to RGB but includes an alpha channel for opacity control  */
+
+/* 
+h1{
+    color: hsla(329, 86%, 42%, 0.5)
+}  */
+

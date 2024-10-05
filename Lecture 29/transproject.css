@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    background-color: rgb(10, 37, 58);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+     
+}
+.box{
+    width: 100px;
+    aspect-ratio: 1;
+    margin-left:50px ;   
+    text-align: center;
+    background-color: rgb(24, 139, 215);
+    border-radius: 50%;
+    box-shadow: 0 0 0 15px rgba(92, 135, 227, 0.5);
+}
+
+.box:nth-child(1):hover{
+    transition-timing-function: ease;
+    transition: all 4s ;
+    translate: 90vw 0;
+    
+}
+.box:nth-child(2):hover{
+    transition-timing-function: ease-in;
+    transition: all 4s ;
+    translate: 90vw 0;
+}
+.box:nth-child(3):hover{
+    transition-timing-function: ease-in-out;
+    transition: all 4s ;
+    translate: 90vw 0;
+}
+.box:nth-child(4):hover{
+    transition-timing-function: ease-out;
+    transition: all 4s ;
+    translate: 90vw 0;
+}
+.box:nth-child(5):hover{
+    transition-timing-function:ease-in-out;
+    transition: all 4s ;
+    translate: 90vw 0;
+}
+.container .box{
+    text-align: center;
+    line-height: 100px;
+}

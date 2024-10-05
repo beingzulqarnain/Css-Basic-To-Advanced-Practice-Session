@@ -1,0 +1,21 @@
+.btn{
+    color: white;
+    background-color: brown;
+    border: 0px solid #000;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+:hover.btn{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #000;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
